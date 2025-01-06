@@ -4,29 +4,17 @@
     box-sizing: border-box;
 }
 
-#logo {
-    width: 150px;
-    height: auto;
-}
-
-.body-parent-container {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.first-content-container {
-    flex: 1;
-    height: 70vh;
-    background-color: rgb(16, 14, 26);
+body{
+    background-color: brown;
+    font-family: "Roboto", sans-serif;
 }
 
 .nav-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     color:white;
-    font-family: "Lora", serif;
-    margin:20px;
+    margin:20px 40px;
 }
 
 .logo {
@@ -46,4 +34,59 @@
     list-style: none;
     font-weight:300;
     font-size:18px;
+}
+
+.first-section-container{
+    display:flex;
+    flex-wrap: wrap;
+    color:white;
+    padding:40px 200px;
+    align-items: center;
+}
+
+.first-content{
+    flex:1;
+}
+#img1{
+    width:500px;
+    height:auto;
+    border-radius:10px;
+}
+
+.second-section-container{
+    display: flex;
+    width:100%;
+    background-color: white;
+    height:50vh;
+    justify-content: center;
+    padding:20px;
+}
+
+.second-section-container h1{
+    color:rgb(50, 50, 50);
+}
+
+.third-section-container{
+    display: flex;
+    width:100%;
+    background-color: rgb(223, 223, 223);
+    height:50vh;
+    justify-content: center;
+    padding:20px;
+}
+
+.fourth-section-container{
+    display: flex;
+    width:100%;
+    background-color: rgb(255, 255, 255);
+    height:50vh;
+    justify-content: center;
+    padding:20px;
+}
+
+footer{
+    display:flex;
+    width:100%;
+    background-color: brown;
+    height:8vh;
 }
