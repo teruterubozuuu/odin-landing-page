@@ -5,16 +5,15 @@
 }
 
 body{
-    background-color: brown;
+    background-color: #1f2937;
     font-family: "Roboto", sans-serif;
 }
 
 .nav-container {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     color:white;
-    margin:20px 40px;
+    padding:20px;
 }
 
 .logo {
@@ -38,19 +37,29 @@ body{
 
 .first-section-container{
     display:flex;
-    flex-wrap: wrap;
     color:white;
-    padding:40px 200px;
+    padding:100px;
     align-items: center;
+    justify-content: center;
+    gap:5rem;
 }
 
-.first-content{
-    flex:1;
+.first-section-content{
+    width:27%;
 }
+
+.first-section-content h1{
+    font-size:48px;
+}
+
+.first-section-content p{
+    font-size: 18px;
+}
+
+
 #img1{
-    width:500px;
+    width:450px;
     height:auto;
-    border-radius:10px;
 }
 
 .second-section-container{
